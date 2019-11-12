@@ -11,8 +11,8 @@ const UsersRouter = require('./users/users-router');
 const protected = require('./users/users-middleware/protected');
 
 const sessionConfig = {
-    name: 'dogfather',
-    secret: 'Dog spells God backwards.',
+    name: 'jeremy',
+    secret: 'is it secret? is it safe?',
     cookie: {
         httpOnly: true, // No cookies in JS for security reasons
         maxAge: 1000 * 60 * 60, // Cookie only valid for 1 hour
